@@ -1,3 +1,4 @@
-# Ngrok
-for_ngrok
-28kuoW8A8aPiY5X9OCWB2EVwE4a_2mNVa2rjZjFw8PHhTBiVW
+# Ngrok - должен находиться в папке bin вместе с vagrant.exe
+Для настройки vagrant под Ngrok необходимо скачать плагин Vagrant-share. После установки плагина необходимо ввести команду vagrant share http "проброшенный порт"
+Далее запускается Ngrok и вводится команда ngrok http "проброшенный гостевой порт виртуальной машины.
+
